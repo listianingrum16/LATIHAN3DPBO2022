@@ -1,11 +1,8 @@
 # LATIHAN3DPBO2022
 
-Program yang dibuat yaitu program untuk menampilkan daftar semua kelas dari kelas yang sudah dibuat menggunakan konsep pewarisan.
-Program terdiri dari 4 file tiap bahasanya, ada file untuk kelas product, hardware, memory, dan file main (C++, Java, Python) atau index (PHP).
-Untuk pewarisannya dimulai dari kelas product, lalu kelas product memiliki keturunan yaitu kelas hardware. Begitu juga kelas hardware memiliki keturuan yaitu kelas memory. 
+Program yang dibuat yaitu program untuk menampilkan spesifikasi PC dan harga PC menggunakan konsep composition. Program terdiri dari 5 file yaitu file untuk kelas processor, disk, ram, pc, dan file main (C++, Java, Python) atau index (PHP). Untuk kelas processor, disk, dan ram dibuat seperti kelas pada umumnya. Sedangkan kelas pc dibuat dengan model composition dimana pada kelas pc terdapat kelas processor, disk, dan ram. 
 
-Desain dari programnya yaitu data-data pada atribut didaftarkan secara statis lewat file main (C++, Java, Python) atau index (PHP). Data dimasukkan ke atribut yang sesuai menggunakan metode setter dan constructor. Program terdiri dari 2 produk, produk pertama menggunakan setter dan produk kedua menggunakan constructor. Untuk metode setter hanya perlu mendefinisikan kelas memory saja karena antara kelas product, hardware, dan memory sudah saling terhubung. Sedangkan untuk constructor didefinisikan tiap kelasnya. 
-Untuk outputnya menggunakan metode getter. 
+Desain dari programnya yaitu data atribut didaftarkan secara statis melalui file main (C++, Java, Python) atau index (PHP). Semua data dimasukkan ke atribut yang sesuai menggunakan metode setter. Untuk outputnya menggunakan metode getter dari kelas pc sehingga untuk menampilkan kelas processor, ram, dan disk harus diakses melalui kelas pc terlebih dahulu kemudian diakses ke kelas masing - masing.   
 
 ## Berikut ini adalah output yang dihasilkan:
 
