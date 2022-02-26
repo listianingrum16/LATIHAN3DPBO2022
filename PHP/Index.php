@@ -34,7 +34,7 @@ include "Pc.php";
     $pc_obj -> setTotalPrice($processor_obj, $disk_obj, $ram_obj);
     
 	// ambil nilai menggunakan getter untuk ditampilkan ke layar
-  echo "<h2>PC Specifications</h2>";
+    echo "<h2>PC Specifications</h2>";
 	echo "- Processor Name : ". $pc_obj -> getProcessor() -> getName(). "<br>"."<br>";
 	echo "- Processor Price : Rp". $pc_obj -> getProcessor() -> getPrice(). "<br>"."<br>";
 	echo "- Disk Type : ". $pc_obj -> getDisk() -> getType(). "<br>"."<br>";
@@ -42,6 +42,6 @@ include "Pc.php";
 	echo "- Disk Price : Rp". $pc_obj -> getDisk() -> getPrice(). "<br>"."<br>";
 	echo "- RAM Capacity : ". $pc_obj -> getRam() -> getCapacity(). "GB"."<br>"."<br>";
 	echo "- RAM Price : Rp". $pc_obj -> getRam() -> getPrice(). "<br>";
-  echo "<h2>PC Price</h3>";
+    echo "<h2>PC Price</h3>";
 	echo "- PC Price : Rp". $pc_obj -> getTotalPrice();
 ?>
