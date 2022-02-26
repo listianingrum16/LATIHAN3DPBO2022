@@ -2,21 +2,21 @@
 # kuliah DPBO untuk keberkahanNya maka saya tidak akan melakukan kecurangan 
 # seperti yang telah dispesifikasikan. Aamiin 
 
-class Processor():
+class Ram():
 
     # deklarasi atribut
-    __name = ""
+    __capacity = 0
     __price = 0
 
     # constructor
     def __init__(self):
         self
     
-    # method set & get name
-    def setName(self, name):
-        self.__name = name
-    def getName(self):
-        return self.__name
+    # method set & get capacity
+    def setCapacity(self, capacity):
+        self.__capacity = capacity
+    def getCapacity(self):
+        return self.__capacity
 		
     # method set & get price
     def setPrice(self, price):
