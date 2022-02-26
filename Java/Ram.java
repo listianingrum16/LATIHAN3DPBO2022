@@ -2,22 +2,22 @@
 	kuliah DPBO untuk keberkahanNya maka saya tidak akan melakukan kecurangan 
 	seperti yang telah dispesifikasikan. Aamiin */
 
-class Processor
+class Ram
 {
     // deklarasi atribut
-    private String name;
+    private int capacity;
     private int price;
 
     // constructor
-    public Processor(){
+    public Ram(){
     }
     
-    // method set & get name
-    public void setName(String name) {
-        this.name = name;
+    // method set & get capacity
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
     }
-    public String getName() {
-        return name;
+    public int getCapacity() {
+        return capacity;
     }
 
     // method set & get price
@@ -27,4 +27,4 @@ class Processor
     public int getPrice() {
         return price;
     }
-} 
+}

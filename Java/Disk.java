@@ -2,22 +2,31 @@
 	kuliah DPBO untuk keberkahanNya maka saya tidak akan melakukan kecurangan 
 	seperti yang telah dispesifikasikan. Aamiin */
 
-class Processor
+class Disk
 {
     // deklarasi atribut
-    private String name;
+    private String type;
+    private int capacity;
     private int price;
 
     // constructor
-    public Processor(){
+    public Disk(){
     }
     
-    // method set & get name
-    public void setName(String name) {
-        this.name = name;
+    // method set & get type
+    public void setType(String type) {
+        this.type = type;
     }
-    public String getName() {
-        return name;
+    public String getType() {
+        return type;
+    }
+
+    // method set & get capacity
+    public void setCapacity(int capacity) {
+        this.capacity = capacity;
+    }
+    public int getCapacity() {
+        return capacity;
     }
 
     // method set & get price
